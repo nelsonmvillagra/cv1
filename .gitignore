@@ -1,1 +1,5 @@
-white_patch_procesada/
+# Ignore everything inside the logs folder
+output/*
+
+# But do not ignore the .gitkeep file (allowing the folder to be tracked)
+!output/.gitkeep
